@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Shop</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="./shop.css">        
+    </head>
+    <body>
+        <nav class="navbar navbar-light navbar-expand-sm">
+
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/Untitled.png" width="65" height="65" alt="">
+            </a>
+            <ul id="myNavbar" class="navbar-nav mr-auto ml-5 align-items-center">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Settings</a>
+                </li>
+                <li class="nav-item">
+                    <form id="userForm">
+                        <input id="email" type="email" name="email" placeholder="Email" required />
+                        <input id="user" type="text" name="username" placeholder="Username" required />
+                        <button class="signin" type="submit">Sign In</button>
+                      </form>
+                </li>
+            </ul>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <div id="score-board">
+                        Points: <span id="points">0</span>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- Nature Category -->
+        <div class="container">
+            <div class="row my-5">
+                <div class="col d-flex justify-content-center">
+                    <h1 class="display-4 bg-success d-inline-flex px-5 py-2 rounded border" style="background-image: url('./images/leaves.jpg'); opacity:0.4;">Nature</h1>
+                    <h1 class="display-4 d-inline-flex px-5 py-2 rounded position-absolute border">Nature</h1>                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+
+                    <img class="d-block w-100 border rounded" src="./images/tree.jpg">
+                </div>
+                <div class="col">
+                    <div class="row pb-5">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex">Plant A Tree!</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex align-self-center">Cost: 50</h4>
+                        </div>
+                        <div class="col d-flex justify-content-right">
+                            <a href="https://teamtrees.org/">
+                                <button type="button" class="btn btn-success btn-lg">Do it!</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col d-flex justify-content-left">
+                            <h4>Num Bought: ___</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <img class="d-block w-100 border rounded" alt="" src="./images/wildlife.jpg">
+
+                </div>
+                <div class="col">
+                    <div class="row pb-5">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex">Wildlife Conservation!</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex align-self-center">Cost: 300</h4>
+                        </div>
+                        <div class="col d-flex justify-content-right align-items-center">
+                            <a href="https://www.nature.org/en-us/">
+                                <button type="button" class="btn btn-success btn-lg">Do it!</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex">Num Bought: ___</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Nature -->
+
+        <!-- Marine Category -->
+        <div class="container">
+    <div class="row my-5">
+        <div class="col d-flex justify-content-center">
+            <h1 class="display-4 bg-success d-inline-flex px-5 py-2 rounded border" style="background-image: url('./images/water2.jpg'); opacity:0.4;">Marine</h1>
+            <h1 class="display-4 d-inline-flex px-5 py-2 rounded position-absolute border">Marine</h1>                
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img class="d-block w-100 border rounded" alt="" src="./images/turtles.png">
+        </div>
+        <div class="col">
+            <div class="row pb-5">
+                <div class="col d-flex justify-content-left">
+                    <h4 class="d-inline-flex">Save A Turtle!</h4>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col d-flex justify-content-left">
+                    <h4 class="d-inline-flex align-self-center">Cost: 250</h4>
+
+                </div>
+                <div class="col d-flex justify-content-right">
+                    <a href="https://saveturtles.org/">
+                        <button type="button" class="btn btn-success btn-lg">Do it!</button>
+                    </a>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col d-flex justify-content-left">
+                    <h4 class="d-inline-flex">Num Bought: ___</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img class="d-block w-100 border rounded" alt="" src="./images/trash.jpg">
+        </div>
+        <div class="col">
+            <div class="row pb-5">
+                <div class="col d-flex justify-content-left">
+                    <h4 class="d-inline-flex">Ocean Clean-Up!</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-left">
+                    <h4 class="d-inline-flex align-self-center">Cost: 500</h4>
+                </div>
+                <div class="col d-flex justify-content-right align-items-center">
+                    <a href="https://theoceancleanup.com/">
+                        <button type="button" class="btn btn-success btn-lg">Do it!</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col d-flex justify-content-left">
+                    <h4 class="d-inline-flex">Num Bought: ___</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <!-- End of Marine -->
+
+        <!-- Donate Category -->
+        <div class="container">
+            <div class="row my-5">
+                <div class="col d-flex justify-content-center">
+                    <h1 class="display-4 bg-success d-inline-flex px-5 py-2 rounded border" style="background-image: url('./images/hands.jpg'); background-size: cover; opacity:0.3;">Donate</h1>
+                    <h1 class="display-4 d-inline-flex px-5 py-2 rounded position-absolute border">Donate</h1>                
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col">
+
+                    <img class="d-block w-100 border rounded" alt="" src="./images/feed.jpg">
+
+                </div>
+                <div class="col">
+                    <div class="row pb-5">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex">Feeding America!</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex align-self-center">Cost: 150</h4>
+                        </div>
+                        <div class="col d-flex justify-content-right">
+                            <a href="https://www.feedingamerica.org/">
+                                <button type="button" class="btn btn-success btn-lg">Do it!</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex">Num Bought: ___</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <img class="d-block w-100 border rounded" alt="" src="./images/jude.jpg">
+
+                </div>
+                <div class="col">
+                    <div class="row pb-5">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex">St. Jude Children's Hospital!</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex align-self-center">Cost: 500</h4>
+                        </div>
+                        <div class="col d-flex justify-content-right align-items-center">
+                            <a href="https://www.stjude.org/">
+                                <button type="button" class="btn btn-success btn-lg">Do it!</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mt-5 ">
+                        <div class="col d-flex justify-content-left">
+                            <h4 class="d-inline-flex">Num Bought: ___</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Donate -->
+        <script src="./script.js"></script>
+    </body>
+</html>
